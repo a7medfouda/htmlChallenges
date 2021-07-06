@@ -1,0 +1,98 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>assignment-2 | personal data form </title>
+</head>
+
+<body>
+    <form>
+        <!-- start the main fieldset  -->
+        <fieldset style="height: 800px;background-color:#0A1D37;">
+            <!-- the legend of the main fieldset  -->
+            <legend style="background-color: #ECDBBA">Personal Data</legend>
+            <br>
+            <!-- start the nested fieldset -->
+            <fieldset style="background-color: #FFEEDB;">
+                <!-- the legend of the nested fieldset  -->
+                <legend style="background-color: #ECDBBA;padding: 40px 0 ;">Your Name</legend>
+                <br>
+                <br>
+                <!-- start input fields of the nested fieldset  -->
+                <table>
+                    <tr>
+                        <!--################## "<pre></pre>" is a tag that keep spaces like i form ##################  -->
+                        <pre><td>First Name   </td></pre>
+                        <td>: <input type="text" placeholder="ex. ahmed"></td>
+                    </tr>
+                    <tr>
+                        <pre><td>Second Name  </td></pre>
+                        <td>: <input type="text" placeholder="ex. fouda"></td>
+                    </tr>
+                </table>
+                <!-- end input fields of the nested fieldset  -->
+            </fieldset>
+            <!-- end the nested fieldset-->
+            <br>
+            <br>
+            <!-- start the input fields of main fieldset  -->
+            <table>
+                <tr>
+                    <pre><td style="color: white;">your phone  </td></pre>
+                    <td style="color: white;">: <input type="tel"></td>
+                </tr>
+                <tr>
+                    <pre><td style="color: white;">Email       </td></pre>
+                    <td style="color: white;">: <input type="email"></td>
+                </tr>
+                <tr>
+                    <pre><td style="color: white;">password    </td></pre>
+                    <td style="color: white;">: <input type="password"></td>
+                </tr>
+                <tr>
+                    <pre><td style="color: white;">re-password  </td></pre>
+                    <td style="color: white;">: <input type="password"></td>
+                </tr>
+            </table>
+            <!-- end the input fields of the main fieldset  -->
+            <br>
+            <br>
+            <br>
+            <!-- start radio input fields  -->
+            <input type="radio" name="gender" value="male">
+            <label style="color: white;">male</label> <br>
+            <input type="radio" name="gender" value="female">
+            <label style="color: white;">female</label>
+            <!-- end radio input fields  -->
+            <br>
+            <br>
+            <!-- start checkbox input fields  -->
+            <input type="checkbox" name="state" value="student">
+            <label style="color: white;">student</label> <br>
+            <input type="checkbox" name="state" value="graduated">
+            <label style="color: white;">graduated</label>
+            <!-- end checkbox input fields  -->
+            <br>
+            <br>
+            <!-- start the dropdown list  -->
+            <select name="country" style="width: 120px;">
+                <optgroup label="AUC">
+                    <option value="New York">New York</option>
+                    <option value="Florida">Florida</option>
+                    <option value="California">California</option>
+                </optgroup>
+                <optgroup label="Egypt">
+                    <option value="Alx">Alx</option>
+                    <option value="Cairo">Cairo</option>
+                    <option value="Giza">Giza</option>
+                </optgroup>
+            </select>
+            <!-- end the dropdown list  -->
+            <br>
+            <button style="background-color: black;color: white;padding: 5px 10px;">SUBMIT</button>
+        </fieldset>
+        <!-- end the main fieldset  -->
+    </form>
+</body>
+
+</html>
